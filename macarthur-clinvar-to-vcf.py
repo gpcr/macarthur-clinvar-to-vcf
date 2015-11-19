@@ -10,7 +10,7 @@ from vcf_parser import VCFParser
 from vcf_parser.utils import build_info_string
 
 __author__ = 'dankle'
-__VERSION = '0.0.1'
+__VERSION = '0.0.2'
 
 
 def main():
