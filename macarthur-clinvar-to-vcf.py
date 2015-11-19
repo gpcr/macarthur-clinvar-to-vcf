@@ -55,15 +55,15 @@ def main():
         ref=elements[2]
         alt=elements[3]
         mut=elements[4]
-        measure_set = elements[5].split(";")
-        symbol = elements[6].split(";")
-        clnsigstr = elements[7].split(";")
-        review_status = elements[8].split(";")
-        hgvs_c = elements[9].split(";")
-        hgvs_p = elements[10].split(";")
-        all_submitters = elements[11].split(";")
-        all_traits = elements[12].split(";")
-        all_pubmed_ids = elements[13].split(";")
+        measure_set = elements[5].replace(" ", "_").split(";")
+        symbol = elements[6].replace(" ", "_").split(";")
+        clnsigstr = elements[7].replace(" ", "_").split(";")
+        review_status = elements[8].replace(" ", "_").split(";")
+        hgvs_c = elements[9].replace(" ", "_").split(";")
+        hgvs_p = elements[10].replace(" ", "_").split(";")
+        all_submitters = elements[11].replace(" ", "_").split(";")
+        all_traits = elements[12].replace(" ", "_").split(";")
+        all_pubmed_ids = elements[13].replace(" ", "_").split(";")
         pathogenic = elements[14]
         conflicted = elements[15]
 
